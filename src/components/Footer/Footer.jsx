@@ -54,7 +54,7 @@ const Footer = () => {
                 </div>
                 </div>
                </div>
-               <p className='text-secondary text-center mt-5 mb-5'><small>Copyright2021 All Rights Reserved@Istiak</small></p>
+               <p className='text-secondary text-center mt-5 mb-5'><small>Copyright{(new Date()).getFullYear()} All Rights Reserved@Istiak</small></p>
             </div>
             
         </section>
