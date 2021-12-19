@@ -1,0 +1,14 @@
+.navwraper>a>a{
+    font-weight: bold !important;
+    text-decoration: none !important;
+    color: #8E8F8F;
+    
+    
+}
+.navwraper>a{
+    font-weight: bold;
+    color: #8E8F8F;
+}
+.navwraper>a:hover,.activepage{
+    background-color: #2f3f2f!important;
+}

@@ -12,7 +12,7 @@ const HaderBannger = () => {
             <div className="col-md-4 ">
                 <h1 style={{color:"#3A4256"}}>Your New Smile <br />Starts Here</h1>
                 <p className='text-secondary'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus nam quis voluptas tenetur nesciunt porro officiis? Officia veniam repudiandae consectetur?</p>
-                <button className="btn btn-primary">GET APPOINTMENT</button>
+                <button style={{backgroundColor:"#17D2BC",border:"none"}} className="btn btn-primary">GET APPOINTMENT</button>
 
             </div>
             <div className="col-md-5">

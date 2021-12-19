@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Container } from 'react-bootstrap'
 import Footer from '../../Footer/Footer'
 import Appoinment from '../Appoinment/Appoinment'
@@ -10,6 +10,9 @@ import Service from '../Service/Service'
 import Testimonial from '../Testimonial/Testimonial'
 
 const Home = () => {
+    useEffect(()=>{
+        document.title="Home"
+    },[])
     return (
         <Container fluid>
             <Header />

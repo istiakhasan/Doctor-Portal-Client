@@ -46,7 +46,7 @@ const ContactForm = () => {
                                 rows="6"></textarea>
                         </div>
 
-                        <button style={{backgroundColor:"#17D2BC",fontWeight:"bold",width:"30%"}}  type="submit" class="btn btn-primary mt-4 d-block m-auto">Submit</button>
+                        <button style={{backgroundColor:"#17D2BC",fontWeight:"bold",minWidth:"30%"}}  type="submit" class="btn btn-primary mt-5 d-block m-auto">Submit</button>
                     </form>
                 </div>
             </div>

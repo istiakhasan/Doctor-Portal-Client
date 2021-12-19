@@ -31,7 +31,7 @@ const Service = () => {
                    
                    <h1 className="mb-5 ">Exceptionnal Dental Care,On Your Terms</h1>
                     <p className='text-secondary mt-3 mb-5' style={{lineHeight:"30px"}}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa voluptatibus quia natus nobis, accusantium officiis unde accusamus reiciendis suscipit expedita ipsum, optio corporis veniam corrupti perferendis ex impedit ducimus amet laborum doloremque dolorum quae. Doloribus ullam, maiores, amet natus enim ex iure repellat alias et ut cumque laudantium, eos aut! Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga provident suscipit vitae reprehenderit aliquam laudantium error aperiam similique dolores corrupti.</p>
-                    <button style={{background:"#10CFE6",border:"none",padding:"8px",width:"40%",color:"white",fontWeight:"bold"}}>Learn More</button>
+                    <button style={{background:"#10CFE6",border:"none",padding:"8px",minWidth:"40%",color:"white",fontWeight:"bold"}}>Learn More</button>
                   
                  </div>
                 </div>
