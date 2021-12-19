@@ -1,0 +1,29 @@
+.appoinment{
+    background-image:    linear-gradient(
+     0deg,rgba(0,0,0,0.9),rgba(0,0,0,0.9)), url(../../../images/appointment-bg.png);
+    background-repeat: no-repeat;
+    background-size:cover ;
+       height: 440px;
+    
+    
+    
+
+    background-position:center  center;
+  
+    
+    
+
+}
+
+.appointmentimg{
+    
+
+    width: 100%;
+    height: 562px;
+    
+    transform: translateY(-170px);
+    object-fit: cover;
+   
+   
+    
+}

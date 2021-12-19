@@ -1,0 +1,33 @@
+.footerSection{
+    background-image: url(../../images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 460px;
+}
+.footeritems>ul>li{
+    list-style: none;
+    line-height: 30px;
+    
+}
+.footeritems>ul{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.footeritems>h6{
+    color: #16D2BF;
+}
+.foterIcon>i{
+    padding: 10px;
+    font-size: 30px;
+    cursor: pointer;
+    color: #16D2BF;
+    border-radius: 50%;
+    border: 1px solid #16D2BF;
+    text-align: center !important;
+    object-fit: cover !important;
+    margin-right: 10px !important;
+}
+.foterIcon>i:hover{
+    color: white;
+    background: #16D2BF;
+}
