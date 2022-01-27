@@ -1,15 +1,13 @@
-.navwraper>a>a{
+.navwraper>a{
     font-weight: bold !important;
     text-decoration: none !important;
     color: #8E8F8F;
-    
-    
-}
-.navwraper>a{
+    margin-right: 40px;
     font-weight: bold;
-    color: #8E8F8F;
+    padding:10px
 }
 .navwraper>a:hover,.activepage{
     /* background-color: #2f3f2f!important; */
      background-color: rgba(0,0,0,0.2) !important; 
+     color: white;
 }

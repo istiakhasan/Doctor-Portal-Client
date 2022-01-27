@@ -8,7 +8,7 @@ const Information = () => {
         <section className="row">
             {
                 Infodata.map(info=>(
-                    <div className='text-white col-md-4 mt-3 d-flex align-items-center justify-content-center' style={{height:"110px"}}>
+                    <div key={info.id} className='text-white col-md-4 mt-3 d-flex align-items-center justify-content-center' style={{height:"110px"}}>
                          <div className="cardWraper" style={{background:info.bgcolor}}>
                             <div className='iconwraper'>
                                 <FontAwesomeIcon className='infoIcon' icon={info.icon}></FontAwesomeIcon>

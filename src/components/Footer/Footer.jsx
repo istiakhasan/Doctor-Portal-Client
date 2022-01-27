@@ -48,9 +48,9 @@ const Footer = () => {
                 <h6 className='mb-5'><strong>Oral Health</strong></h6>
                 <p className='text-secondary'>New York-101010 Hudson <br/>Yards</p>
                 <div className='foterIcon mt-4'>
-                <i class="fab fa-facebook"></i>
-                <i class="fab fa-google-plus-g"></i>
-                <i class="fab fa-twitter"></i>
+                <i className="fab fa-facebook"></i>
+                <i className="fab fa-google-plus-g"></i>
+                <i className="fab fa-twitter"></i>
                 </div>
                 </div>
                </div>

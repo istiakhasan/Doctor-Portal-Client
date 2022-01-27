@@ -21,7 +21,7 @@ const Testimonial = () => {
                 <div className="row">
                     {
                         patients.map(pt=>( 
-                            <div className="col-md-4 ">
+                            <div key={pt.id} className="col-md-4 ">
                                 <div style={{  boxShadow:"0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5)"}} className="card w-75 m-auto mt-5">
                                     <div className="card-body">
                                         <p className="card-text text-secondary">{pt.description}</p>

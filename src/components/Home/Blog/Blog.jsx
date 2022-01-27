@@ -14,7 +14,7 @@ const Blog = () => {
             <div className="row mt-5 pt-5 ">
                     {
                         BlogData.map(bldt=>(
-                            <div className="col-md-4 mt-3 ">
+                            <div key={bldt.id} className="col-md-4 mt-3 ">
                                 <div style={{  boxShadow:"0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5)"}} className="card w-75 m-auto p-1 mb-5 containertwo h-100">
                                     <div className="card-body  mb-5">
                                         <div style={{display:"flex",justifyContent:"space-around",alignItems:"center"}}>
@@ -35,8 +35,8 @@ const Blog = () => {
                                             {bldt.desc}
                                             </small>
                                         </div>
-                                        <div class="overlay">
-                                        <div class="text">
+                                        <div className="overlay">
+                                        <div className="text">
                                             <h6 className="my-3">{bldt.name}</h6>
                                             <small >{bldt.date}</small>
                                             <h5 className="my-3">{bldt.title}</h5>

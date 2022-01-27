@@ -3,7 +3,7 @@ import Navigationbar from '../Navbar/Navigationbar'
 import HeaderBanner from '../HeaderBanner/HaderBannger'
 
 import './Header.css'
-import Information from '../Information/Information'
+
 
 const Header = () => {
     return (

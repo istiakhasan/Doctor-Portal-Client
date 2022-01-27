@@ -16,12 +16,18 @@ const Navigationbar = () => {
               style={{ maxHeight: '225px',marginLeft:"auto"}}
               
             >
-              <Nav.Link className='mx-4 activepage' href="#action1"> <Link  to="/">Home</Link></Nav.Link>
-              <Nav.Link className='mx-4 ' href="#action2">About</Nav.Link>
-              <Nav.Link className='mx-4  ' href="#action2">Dental Services</Nav.Link>
-              <Nav.Link className='mx-4 ' href="#action2">Reviews</Nav.Link>
-              <Nav.Link className='mx-4 ' href="#action2">Blog</Nav.Link>
-              <Nav.Link className='mx-4 ' href="#action2">Contact Us</Nav.Link>
+              <Link className='activepage'  to="/">Home</Link>
+              <Link  to="/">Dental Services</Link>
+              <Link  to="/">Reviews</Link>
+              <Link  to="/">Blog</Link>
+              <Link  to="/">Contact Us</Link>
+              <Link  to="/login">Login</Link>
+             
+              {/* <Nav.Link className='mx-4 ' >About</Nav.Link>
+              <Nav.Link className='mx-4  ' >Dental Services</Nav.Link>
+              <Nav.Link className='mx-4 ' >Reviews</Nav.Link>
+              <Nav.Link className='mx-4 ' >Blog</Nav.Link>
+              <Nav.Link className='mx-4 ' >Contact Us</Nav.Link> */}
             
              
             </Nav>

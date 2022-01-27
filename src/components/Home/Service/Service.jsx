@@ -13,7 +13,7 @@ const Service = () => {
             <div className="row mt-5 mb-5">
                 {
                     Servicedata.map(srdt=>(
-                        <div className="col-md-4 text-center pt-5">
+                        <div key={srdt.id} className="col-md-4 text-center pt-5">
                             <img style={{objectFit:"cover",margin:"10px",height:"50px"}} src={srdt.img} alt="" />
                             <h4 style={{color:"#555D68"}}>{srdt.name}</h4>
                             <p style={{textAlign:"center",margin:"auto"}} className='text-secondary w-50 '>{srdt.desc}</p>
